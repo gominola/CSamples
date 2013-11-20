@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExportCppObjectToC", "ExportCppObjectToC\ExportCppObjectToC.vcxproj", "{01396F95-796B-4320-B3FE-250A06A8933B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExportCppObjectToCTester", "ExportCppObjectToCTester\ExportCppObjectToCTester.vcxproj", "{AE37915E-518F-4681-AE74-602CBADBA622}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01396F95-796B-4320-B3FE-250A06A8933B} = {01396F95-796B-4320-B3FE-250A06A8933B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01396F95-796B-4320-B3FE-250A06A8933B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01396F95-796B-4320-B3FE-250A06A8933B}.Debug|Win32.Build.0 = Debug|Win32
+		{01396F95-796B-4320-B3FE-250A06A8933B}.Release|Win32.ActiveCfg = Release|Win32
+		{01396F95-796B-4320-B3FE-250A06A8933B}.Release|Win32.Build.0 = Release|Win32
+		{AE37915E-518F-4681-AE74-602CBADBA622}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE37915E-518F-4681-AE74-602CBADBA622}.Debug|Win32.Build.0 = Debug|Win32
+		{AE37915E-518F-4681-AE74-602CBADBA622}.Release|Win32.ActiveCfg = Release|Win32
+		{AE37915E-518F-4681-AE74-602CBADBA622}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
